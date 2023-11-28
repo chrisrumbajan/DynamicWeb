@@ -15,3 +15,5 @@ jobs:
         port: ${{ secrets.PORT }}
         source: "chris/*"
         target: "/var/www/html/"
+        timeout: 120s
+
